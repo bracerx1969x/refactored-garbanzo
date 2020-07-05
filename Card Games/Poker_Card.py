@@ -1,5 +1,4 @@
-from Card import *
-
+from Card.py import Card
 
 class Poker_Card ( Card ):
     _suit = None

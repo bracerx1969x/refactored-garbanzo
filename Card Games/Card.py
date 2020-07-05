@@ -1,6 +1,9 @@
 class Card:
-    _suit = None
-    _rank = None
+    """ This is the basic card class that will be
+    extended to use for more specific card types.
+    """
+    __suit = None
+    __rank = None
 
     def __init__ ( self, rank, suit ):
         self._rank = rank
